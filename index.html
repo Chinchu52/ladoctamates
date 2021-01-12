@@ -1,41 +1,33 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>La Docta Mates</title>
 	<meta charset="utf-8">
 	<meta name="keywords" content="mate, mates, mates uruguayos, bombillas, yerbas, yerbas por mayor, córdoba, argentina, envíos nacionales, ladoctamates, docta, precios accesibles">
 	<meta name="description" content="La Docta Mates es un emprendimiento para la venta de mates uruguayos, yerbas y termos. Venta por mayor de yerba Rei Verde.">
 	<meta name="author" content="Facundo Andrean">
-	<link rel="icon" href="imagenes/icopestaña/mate.ico"> <!-- Esto tendría que editarlo con photoshop -->
+	<!-- Acá iría el logo de pelado, pero antes lo tendría que editar con photoshop -->
+	<link rel="icon" href="imagenes/icopestaña/mate.ico"> 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-	<!-- esto es para que el navegador se de cuenta cuando estamos en un celuar o tableta-->
-	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
-	
-	<!-- LO DEJO POR SI LAS DUDAS ALGUN DIA LO NECESITO
-
-	Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
-	
-	ME RE GUSTA PERO HAY UN PROBLEMA EN LA BOTONERA -->
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">	
 </head>
-
 <body>
-	
+	<!--<div class="contenedorsuperior">-->
 	<header>
 		<div class="logo-lema">
 			<h2>LaDoctaMates</h2>
 		</div>
 		<div class="accesos">
-			<ul>
-				<li id="home"><a href="index.html">Inicio</a></li>
-				<li id="products"><a href="#seccionproductos">Productos</a></li>
-				<li id="we"><a href="#seccionnosotros">Nosotros</a></li>
-				<li id="iniciarsesion"><a href="paginas/iniciarsesion.html">Iniciar Sesión</a></li> <!-- Esta página no está creada, crearla, no se si con js o con html -->
-			</ul>
+			<div class="botonera">
+				<ul>
+					<li id="home"><a href="index.html">Inicio</a></li>
+					<li id="products"><a href="#seccionproductos">Productos</a></li>
+					<li id="we"><a href="#seccionnosotros">Nosotros</a></li>
+					<li id="iniciarsesion"><a href="paginas/iniciarsesion.html">Iniciar Sesión</a></li> <!-- Esta página no está creada, crearla, no se si con js o con html -->
+				</ul>
+			</div>
 		</div>
 	</header>
 
@@ -44,39 +36,32 @@
 			<h1>LA DOCTA MATES</h1>
 			<h2>Venta de mates uruguayos, yerbas y termos.</h2>
 		</div>
-
 		<div class="titulos" id="seccionproductos">
 			<h3>PRODUCTOS</h3>
 		</div>
-
 		<div class="productos">
-			
 			<div id="termos">
-				<a href="">
+				<a href="paginas/termos.html">
 					<img src="imagenes/productos/002-termo.png" alt="imagen de termo" title="Termos">
 				</a>
 				<p>TERMOS</p>
 			</div>
-			
 			<div id="mates">
-				<a href="">
+				<a href="paginas/mates.html">
 					<img src="imagenes/productos/003-companero.png" alt="imagen de mate" title="Mates">
 				</a>
 				<p>MATES</p>
 			</div>
-
 			<div id="yerbas">
-				<a href="">
+				<a href="paginas/yerbas.html">
 					<img src="imagenes/productos/bolsa-de-semillas.svg" alt="paquete de yerba" title="Yerbas">
 				</a>
 				<p>YERBAS</p>
 			</div>
 		</div>
-
 		<div class="titulos" id="seccionnosotros">
 			<h3>NOSOTROS</h3>
 		</div>
-
 		<div class="sobrenosotros">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -99,39 +84,30 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p>
 		</div>
-
 	</article>
-
 	<footer>
 		<div class="textos">	
 			<h5 id="copy">&copy Copyright - Todos los derechos reservados</h5>
 			<h6 id="subcopy">Seguinos en nuestras redes</h6>
 		</div>
-
 		<div class="imagenes_footer">
-
 			<div class="hijo">
 				<a href="https://www.Instagram.com/ladoctamates.ok" target="_BLANK">
 					<img src="imagenes/logotipos/png/instagram-logo.png" alt="logo de instagram" title="Instagram" class="logoig">
 				</a>
 			</div>
-
 			<div class="hijo">
 				<a href="https://www.Facebook.com" target="_BLANK">
 					<img src="imagenes/logotipos/png/facebook-logo.png" alt="logo de facebook" title="Facebook" class="logofb">
 				</a>
 			</div>
-
 			<div class="hijo">
 				<a href="https://www.Twitter.com" target="_BLANK">
 					<img src="imagenes/logotipos/png/twitter-logo.png" alt="logo de twitter" title="Twitter" class="logotw">
 				</a>
 			</div>
-
 		</div>
-
 	</footer>
-
+	<!--</div>-->
 </body>
-
 </html>
